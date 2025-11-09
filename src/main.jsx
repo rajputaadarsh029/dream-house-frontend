@@ -4,12 +4,12 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
-import Home from "src/pages/Home.jsx";
-import Editor from "src/pages/Editor.jsx";
+import Home from "./pages/Home.jsx";
+import Editor from "./pages/Editor.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
 
-import Login from "src/pages/Login.jsx";
-import Register from "src/pages/Register.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
