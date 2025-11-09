@@ -7,8 +7,8 @@ import "./index.css";
 import Home from "./pages/Home.jsx";
 import Editor from "./pages/Editor.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import Login from "./pages/Login.jsx";
-import Register from "./pages/Register.jsx";
+import Login from "./pages/login.jsx";
+import Register from "./pages/register.jsx";
 import Signup from "./pages/Signup.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
