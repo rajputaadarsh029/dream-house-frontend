@@ -9,18 +9,22 @@ import Editor from "./pages/Editor.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
+import Signup from "./pages/Signup.jsx";
+
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/editor" element={<Editor />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/editor" element={<Editor />} />
+  <Route path="/dashboard" element={<Dashboard />} />
+  <Route path="/login" element={<Login />} />
+  <Route path="/register" element={<Register />} />
+  <Route path="/signup" element={<Signup />} />
+</Routes>
+
     </BrowserRouter>
   </React.StrictMode>
 );
