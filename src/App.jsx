@@ -1,12 +1,13 @@
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Editor from "src/pages/Editor";
-import Login from "src/pages/Login";
-import Signup from "src/pages/Signup";
-import AuthGate from "src/components/AuthGate";
-import Extras from "src/pages/Extras";
-import ExtrasSidebar from "src/components/ExtrasSidebar";
+import Editor from "./pages/Editor";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import AuthGate from "./components/AuthGate";
+import Extras from "./pages/Extras";
+import ExtrasSidebar from "./components/ExtrasSidebar";
 import React, { useState } from "react";
+
 
 export default function App() {
   // Dashboard state removed as it's now buttons

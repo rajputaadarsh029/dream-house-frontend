@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
  "scripts": {
-  "dev": "vite --mode local",
+  "dev": "vite",
   "dev:network": "vite --mode network --host",
   "build": "vite build",
   "preview": "vite preview"
 },
+
 
   "dependencies": {
     "@react-three/drei": "^9.86.3",
